@@ -8,7 +8,12 @@
 
 struct schedule;
 
-enum State {DEAD, READY, RUNNING, SUSPEND};
+enum State {
+	DEAD, 
+	READY, 
+	RUNNING,
+	SUSPEND
+};
 
 // 协程结构体
 typedef struct {
