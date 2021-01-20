@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1111 1111, 1111, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  F:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+C:\Users\ll\Desktop\M0_code\led_uart.uvprojx
+Project File Date:  01/09/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'F:\keil5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling uart.c...
+uart.h(1): warning:  #1295-D: Deprecated declaration uart_init - give arg types
+  void uart_init();
+uart.h(2): warning:  #1295-D: Deprecated declaration uart_getchar - give arg types
+  char uart_getchar();
+uart.h(3): warning:  #1-D: last line of file ends without a newline
+  void uart_putchar(char chr);
+uart.c: 3 warnings, 0 errors
+compiling main_func.c...
+led.h(1): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+led.h(2): warning:  #1295-D: Deprecated declaration led_on - give arg types
+  void led_on();
+led.h(3): warning:  #1295-D: Deprecated declaration led_off - give arg types
+  void led_off();
+led.h(4): warning:  #1295-D: Deprecated declaration led_blink - give arg types
+  void led_blink();
+led.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay(int loop);
+uart.h(1): warning:  #1295-D: Deprecated declaration uart_init - give arg types
+  void uart_init();
+uart.h(2): warning:  #1295-D: Deprecated declaration uart_getchar - give arg types
+  char uart_getchar();
+uart.h(3): warning:  #1-D: last line of file ends without a newline
+  void uart_putchar(char chr);
+spk.h(2): warning:  #1295-D: Deprecated declaration spk_init - give arg types
+  void spk_init();
+spk.h(3): warning:  #1295-D: Deprecated declaration spk_on - give arg types
+  void spk_on();
+spi.h(1): warning:  #1295-D: Deprecated declaration spi_init - give arg types
+  void spi_init();
+spi.h(2): warning:  #1-D: last line of file ends without a newline
+  unsigned char spi_send(unsigned char  data);
+rfid.h(4): warning:  #1-D: last line of file ends without a newline
+  void delay(int loop);
+main_func.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  						rfid_read(buf);
+main_func.c(93): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  						rfid_write(buf);
+main_func.c(106): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		rfid_read(buf);
+main_func.c(121): warning:  #111-D: statement is unreachable
+  	return 0;
+main_func.c(122): warning:  #1-D: last line of file ends without a newline
+  }
+main_func.c: 18 warnings, 0 errors
+compiling led.c...
+led.h(1): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+led.h(2): warning:  #1295-D: Deprecated declaration led_on - give arg types
+  void led_on();
+led.h(3): warning:  #1295-D: Deprecated declaration led_off - give arg types
+  void led_off();
+led.h(4): warning:  #1295-D: Deprecated declaration led_blink - give arg types
+  void led_blink();
+led.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay(int loop);
+led.c(32): warning:  #1-D: last line of file ends without a newline
+  }
+led.c: 6 warnings, 0 errors
+compiling spk.c...
+spk.h(2): warning:  #1295-D: Deprecated declaration spk_init - give arg types
+  void spk_init();
+spk.h(3): warning:  #1295-D: Deprecated declaration spk_on - give arg types
+  void spk_on();
+spk.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+spk.c: 3 warnings, 0 errors
+compiling rfid.c...
+spi.h(1): warning:  #1295-D: Deprecated declaration spi_init - give arg types
+  void spi_init();
+spi.h(2): warning:  #1-D: last line of file ends without a newline
+  unsigned char spi_send(unsigned char  data);
+rfid.h(4): warning:  #1-D: last line of file ends without a newline
+  void delay(int loop);
+rfid.c: 3 warnings, 0 errors
+compiling spi.c...
+spi.h(1): warning:  #1295-D: Deprecated declaration spi_init - give arg types
+  void spi_init();
+spi.h(2): warning:  #1-D: last line of file ends without a newline
+  unsigned char spi_send(unsigned char  data);
+spi.c: 2 warnings, 0 errors
+assembling startup_LPC11xx.s...
+compiling system_LPC11xx.c...
+linking...
+Program Size: Code=2244 RO-data=268 RW-data=0 ZI-data=608  
+".\Objects\led_uart.axf" - 0 Error(s), 35 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1100_DFP.1.4.0.pack
+                Keil.LPC1100_DFP.1.4.0
+                NXP LPC1100 Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_LPC11xx.s
+      Source file:   Device\Source\system_LPC11xx.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

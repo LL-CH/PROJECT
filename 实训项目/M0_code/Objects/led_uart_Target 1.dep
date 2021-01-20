@@ -1,0 +1,70 @@
+Dependencies for Project 'led_uart', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main_func.c)(0x5FFA5D12)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\main_func.o --omf_browse .\objects\main_func.crf --depend .\objects\main_func.d)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\string.h)(0x00000000)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (led.h)(0x5FF9027B)
+I (uart.h)(0x5FF9013F)
+I (spk.h)(0x5FF90FAA)
+I (spi.h)(0x5FF9013F)
+I (rfid.h)(0x5FF9013F)
+F (.\led.c)(0x5FF91671)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (led.h)(0x5FF9027B)
+F (.\uart.c)(0x5FF90652)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (uart.h)(0x5FF9013F)
+F (.\led.h)(0x5FF9027B)()
+F (.\uart.h)(0x5FF9013F)()
+F (.\spk.c)(0x5FF91994)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\spk.o --omf_browse .\objects\spk.crf --depend .\objects\spk.d)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (spk.h)(0x5FF90FAA)
+F (.\spk.h)(0x5FF90FAA)()
+F (.\spi.c)(0x5FF9013F)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (spi.h)(0x5FF9013F)
+F (.\spi.h)(0x5FF9013F)()
+F (.\rfid.c)(0x5FF92261)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\rfid.o --omf_browse .\objects\rfid.crf --depend .\objects\rfid.d)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdio.h)(0x00000000)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\string.h)(0x00000000)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (spi.h)(0x5FF9013F)
+I (rfid.h)(0x5FF9013F)
+F (.\rfid.h)(0x5FF9013F)()
+F (RTE\Device\LPC11C14FBD48_301\startup_LPC11xx.s)(0x5FF9013F)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (RTE\Device\LPC11C14FBD48_301\system_LPC11xx.c)(0x5FF9013F)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IF:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IF:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="524" -D_RTE_-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (E:\嵌入式课程\嵌入式系统开发ADS1.2破解版\INCLUDE\stdint.h)(0x00000000)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (F:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)

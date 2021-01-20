@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1116</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>525</width>
+     <height>462</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>接收区</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="textBrowser"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cleRecBtn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+color: rgb(255, 0, 0);
+	background-color: rgb(170, 170, 127);
+}</string>
+        </property>
+        <property name="text">
+         <string>清空接收区</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1" rowspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>端口设置</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">QLabel
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+	font: 87 12pt &quot;Arial Black&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>       COM口</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="COMcomboBox">
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{
+color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 255), stop:0.19397 rgba(0, 0, 0, 255), stop:0.202312 rgba(122, 97, 0, 255), stop:0.495514 rgba(76, 58, 0, 255), stop:0.504819 rgba(255, 255, 255, 255), stop:0.79 rgba(255, 255, 255, 255), stop:1 rgba(255, 158, 158, 255));
+}</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">QLabel
+
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>       波特率</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="BaudcomboBox">
+          <item>
+           <property name="text">
+            <string>9600</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57600</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>115200</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">QLabel
+
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>       数据位</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="DatecomboBox">
+          <item>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true">QLabel
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+	font: 87 12pt &quot;Arial Black&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>       停止位</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="StopcomboBox">
+          <item>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1.5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="styleSheet">
+           <string notr="true">QLabel
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+	
+	font: 87 12pt &quot;Arial Black&quot;;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>       校验位</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="ParitycomboBox">
+          <item>
+           <property name="text">
+            <string>无</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>有</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="OpenpushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+
+{
+color: rgb(0, 0, 255);
+	background-color: rgb(85, 255, 127);
+	
+	font: 75 26pt &quot;Agency FB&quot;;
+font: 75 24pt &quot;Bahnschrift SemiBold&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color: rgb(255, 0, 0);
+	font: 75 italic 12pt &quot;Franklin Gothic Medium&quot;;
+	
+	selection-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));
+qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0))
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>发送区</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="handBtn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+color: rgb(0, 0, 255);
+	background-color: rgb(255, 255, 127);
+}</string>
+        </property>
+        <property name="text">
+         <string>手动发送</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cleSendBtn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+color: rgb(255, 0, 0);
+	background-color: rgb(170, 170, 127);
+}</string>
+        </property>
+        <property name="text">
+         <string>清空发送区</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>handBtn</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
